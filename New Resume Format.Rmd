@@ -1,0 +1,81 @@
+---
+name: Jake Rozran
+position: "Data Professional\n\nAdjunct Professor"
+address: "1400 Maryland Ave.\n\nHavertown, PA 19083"
+phone: (410) 231-9371
+profilepic: mariecurie.jpg
+www: jakelearnsdatascience.com
+email: "jacob.rozran@gmail.com"
+twitter: StatsManPHL
+github: jrozra200
+linkedin: jacob-rozran
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Jake is a leader, fixer, builder, helper, learner, dad, uncle, & data guy. I am a data professional who has real-world experience putting data products into production and building data teams. I am curious, constantly learning, and improving - staying up to date with trends in all facets of the data science life cycle. Additionally, I am an Adjunct Professor of Statistics who excels at teaching complex topics at all levels of understanding."
+output: vitae::twentyseconds
+skills: [{Human/5],[Statistics/4.5],[R/4.5],[Python/4],[Databases/4]
+---
+
+\skills{{Human/5},{Statistics/4.5},{R/4.5},{Python/4},{Databases/4}}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Data Science Skills
+
+\begin{center}
+
+```{r, results = "asis"}
+df <- data.frame(a = c("Machine Learning", "Feature Creation", "Process Automation", 
+                       "Regression Analysis", "Data Visualization"),
+                 b = c("RStudio", "Jupyter Notebooks", "Tableau", "Splunk",
+                       "Excel"),
+                 c = c("R", "Python", "Bash", "SAS", ""),
+                 d = c("Hive/Impala (Hadoop)", "MySQL", "Oracle", "MongoDB", 
+                       "Neo4J"))
+
+names(df) <- c("METHODS", "APPLICATIONS", "LANGUAGES", "DATABASES")
+
+knitr::kable(df, row.names = FALSE, "latex", booktabs = T)
+```
+\end{center}
+
+# Experience
+
+```{r}
+library(tibble)
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Solutions Consultant", "Socure", "New York, NY", "Jan 2020 - Present",
+        "Adjunct Professor of Statistics", "Villanova University", "Villanova, PA", "Aug 2020 - Present",
+        "Manager of Data Analytics - Xfinity Mobile Risk Management", "Comcast", "Philadelphia, PA", "Mar 2017 - Jan 2020",
+        "Senior Data Analyst - Internet Services Engineering", "Comcast", "Philadelphia, PA", "Sep 2014 - Mar 2017",
+        "Project Manager - Messaging Applications Engineering", "Comcast", "Philadelphia, PA", "Apr 2013 - Sep 2014",
+        "Project Manager - Messaging Applications Engineering", "Comcast", "Philadelphia, PA", "Apr 2013 - Sep 2014",
+        "Implementation Manager", "Booz Allen Hamilton", "Rockville, MD", "Nov 2010 - Apr 2013",
+        "Financial Analyst/Project Manager", "Booz Allen Hamilton", "Lexington Park, MD", "Nov 2009 - Oct 2010"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+# Volunteer
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Organizer", "Data Jawn Conference", "Philadelphia, PA", "April 2019 - Present",
+        "Data Analyst", "Montgomery County Public Defender", "Norristown, PA", "May 2016 - Jun 2017"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Masters of Science - Applied Statistics", "2015 - 2017", "Villanova University", "Villanova, PA",
+  "Bachelors of Science - Business & Engineering", "2004 - 2009", "Drexel University", "Philadelphia, PA"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
