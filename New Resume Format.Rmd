@@ -10,7 +10,7 @@ twitter: StatsManPHL
 github: jrozra200
 linkedin: jacob-rozran
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "I am a leader, fixer, builder, helper, learner, dad, uncle, & data guy.\n\nI am a data professional who has real-world experience putting data products into production and building data teams. I am curious, constantly learning, and improving - staying up to date with trends in all facets of the data science life cycle.\n\nAdditionally, I am an Adjunct Professor of Statistics who excels at teaching complex topics at all levels of understanding. I love to learn in general, but mostly I am a data fanatic."
+aboutme: "I am a leader, fixer, builder, helper, learner, dad, uncle, & data guy.\n\nI am a data professional who has real-world experience putting data products into production and building data teams. I am curious, constantly learning, and improving - staying up to date with trends in all facets of the data science life cycle.\n\nAdditionally, I am an Adjunct Professor of Statistics who excels at teaching complex topics at all levels of understanding. I love to learn in general and am a data fanatic."
 output: vitae::twentyseconds
 ---
 
@@ -61,12 +61,12 @@ venn.plot <- draw.triple.venn(
 library(tibble)
 tribble(
         ~ role, ~ company, ~ loc, ~ dates, ~details,
-        "Solutions Consultant", "Socure", "New York, NY", "2020-Pres.", "Technical expert on fraud prevention, Know Your Customer (KYC)/Customer Identification Program (CIP), Socure product modules, data science, statistics, data visualization, and proof of concept presentation in support of the sales and onboarding processes.",
+        "Solutions Consultant", "Socure", "New York, NY", "2020-Pres.", "Technical expert on fraud prevention, Know Your Customer (KYC)/Customer Identification Program (CIP), Socure product modules, data science, statistics, data visualization, and proof of concept presentations in support of the sales and onboarding processes.",
         "Adjunct Professor of Statistics", "Villanova University", "Villanova, PA", "2020-Pres.", "Build the syllabus, lectures, assignments, and tests for undergraduate Intro to Statistics course.",
-        "Manager of Data Analytics", "Comcast: Xfinity Mobile Risk Mgmt", "Philadelphia, PA", "2017-2020", "Led and managed the data analytics and engineering team for Xfinity Mobile Credit Risk Management.",
-        "Senior Data Analyst", "Comcast: Internet Services Eng", "Philadelphia, PA", "2014-2017", "Designed and built predictive models, which improved compromised user account detection times and discovery accuracy.", 
+        "Manager of Data Analytics", "Comcast: Xfinity Mobile Risk Mgmt", "Philadelphia, PA", "2017-2020", "Led and managed the data analytics and data engineering team for Xfinity Mobile Risk Management.",
+        "Senior Data Analyst", "Comcast: Internet Services Eng", "Philadelphia, PA", "2014-2017", "Designed and built predictive models, which improved compromised email user account detection times and discovery accuracy.", 
         "Project Manager", "Comcast: Messaging Application Eng", "Philadelphia, PA", "2013-2014", "Served as a Project Manager and ScrumMaster for the Messaging Application Engineering team.",
-        "Implementation Manager", "Booz Allen Hamilton", "Rockville, MD", "2010-2013", "Served as the Implementation Manager and Site Administrator for several applications.",
+        "Implementation Manager", "Booz Allen Hamilton", "Rockville, MD", "2010-2013", "Served as the Implementation Manager and Site Administrator for several web applications.",
         "Financial Analyst/Project Manager", "Booz Allen Hamilton", "Lexington Park, MD", "2009-2010", "Developed a financial tracking system for clients."
         ) %>% detailed_entries(role, dates, company, loc, details)
 ```
