@@ -32,10 +32,10 @@
 %----------------------------------------------------------------------------------------
 
 \definecolor{white}{RGB}{255,255,255}
-\definecolor{gray}{HTML}{4D4D4D}
-\definecolor{sidecolor}{HTML}{ADD8E6} % Changed from gray to light blue
-\definecolor{mainblue}{HTML}{0E5484}
-\definecolor{maingray}{HTML}{B9B9B9}
+\definecolor{gray}{HTML}{394867} % Changed to a new gray
+\definecolor{sidecolor}{HTML}{F1F6F9} % Changed from gray to light blue
+\definecolor{mainblue}{HTML}{14274E} % Changed to dark blue
+\definecolor{maingray}{HTML}{9BA4B4} % Changed to a new gray
 
 %----------------------------------------------------------------------------------------
 %	 MISC CONFIGURATIONS
@@ -175,11 +175,11 @@
 
 		%------------------------------------------------
 
-		\profilesection{Skills}
-    	\skills
-		\skillstext
-        \scriptsize
-        (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+%		\profilesection{Skills}
+%    	\skills
+%		\skillstext
+%        \scriptsize
+%        (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
 
 		%------------------------------------------------
 

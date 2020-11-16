@@ -10,7 +10,7 @@ twitter: StatsManPHL
 github: jrozra200
 linkedin: jacob-rozran
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Jake is a leader, fixer, builder, helper, learner, dad, uncle, & data guy. I am a data professional who has real-world experience putting data products into production and building data teams. I am curious, constantly learning, and improving - staying up to date with trends in all facets of the data science life cycle.\n\nAdditionally, I am an Adjunct Professor of Statistics who excels at teaching complex topics at all levels of understanding. I love to learn in general, but mostly I am a data fanatic."
+aboutme: "I am a leader, fixer, builder, helper, learner, dad, uncle, & data guy.\n\nI am a data professional who has real-world experience putting data products into production and building data teams. I am curious, constantly learning, and improving - staying up to date with trends in all facets of the data science life cycle.\n\nAdditionally, I am an Adjunct Professor of Statistics who excels at teaching complex topics at all levels of understanding. I love to learn in general, but mostly I am a data fanatic."
 output: vitae::twentyseconds
 ---
 
@@ -18,28 +18,6 @@ output: vitae::twentyseconds
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
-
-\begin{center}
-
-```{r, out.width = "65%"}
-library(VennDiagram)
-venn.plot <- draw.triple.venn(
-        area1 = 65,
-        area2 = 75,
-        area3 = 85,
-        n12 = 35,
-        n23 = 15,
-        n13 = 25,
-        n123 = 5,
-        category = c("Coding/\nData", "Statistics", "Leadership"),
-        fill = c("#1d6ae5", "#5DADE2", "#19396b"),
-        cat.cex = 1.5,
-        cat.col = c("#1d6ae5", "#5DADE2", "#19396b"),
-        cex = c(0, 0, 0, 0, 0, 0, 0)
-)
-```
-
-\end{center}
 
 # Data Science Skills
 
@@ -53,6 +31,28 @@ venn.plot <- draw.triple.venn(
 * Bash - Intermediate
 * SAS - Novice
 
+\begin{center}
+
+```{r, out.width = "95%"}
+library(VennDiagram)
+venn.plot <- draw.triple.venn(
+        area1 = 65,
+        area2 = 75,
+        area3 = 85,
+        n12 = 35,
+        n23 = 15,
+        n13 = 25,
+        n123 = 5,
+        category = c("Coding/\nData", "Statistics", "Leadership"),
+        fill = c("#1d6ae5", "#5DADE2", "#19396b"),
+        cat.cex = 1.5,
+        cat.col = c("#14274e", "#394867", "#9ba4b4"),
+        cex = c(0, 0, 0, 0, 0, 0, 0)
+)
+```
+
+\end{center}
+
 \etwocol
 
 # Experience
@@ -60,15 +60,15 @@ venn.plot <- draw.triple.venn(
 ```{r}
 library(tibble)
 tribble(
-        ~ role, ~ company, ~ loc, ~ dates,
-        "Solutions Consultant", "Socure", "New York, NY", "2020-Pres.",
-        "Adjunct Professor of Statistics", "Villanova University", "Villanova, PA", "2020-Pres.",
-        "Manager of Data Analytics", "Comcast: Xfinity Mobile Risk Mgmt", "Philadelphia, PA", "2017-2020",
-        "Senior Data Analyst", "Comcast: Internet Services Eng", "Philadelphia, PA", "2014-2017",
-        "Project Manager", "Comcast: Messaging Application Eng", "Philadelphia, PA", "2013-2014",
-        "Implementation Manager", "Booz Allen Hamilton", "Rockville, MD", "2010-2013",
-        "Financial Analyst/Project Manager", "Booz Allen Hamilton", "Lexington Park, MD", "2009-2010",
-        ) %>% detailed_entries(role, dates, company, loc)
+        ~ role, ~ company, ~ loc, ~ dates, ~details,
+        "Solutions Consultant", "Socure", "New York, NY", "2020-Pres.", "Technical expert on fraud prevention, Know Your Customer (KYC)/Customer Identification Program (CIP), Socure product modules, data science, statistics, data visualization, and proof of concept presentation in support of the sales and onboarding processes.",
+        "Adjunct Professor of Statistics", "Villanova University", "Villanova, PA", "2020-Pres.", "Build the syllabus, lectures, assignments, and tests for undergraduate Intro to Statistics course.",
+        "Manager of Data Analytics", "Comcast: Xfinity Mobile Risk Mgmt", "Philadelphia, PA", "2017-2020", "Led and managed the data analytics and engineering team for Xfinity Mobile Credit Risk Management.",
+        "Senior Data Analyst", "Comcast: Internet Services Eng", "Philadelphia, PA", "2014-2017", "Designed and built predictive models, which improved compromised user account detection times and discovery accuracy.", 
+        "Project Manager", "Comcast: Messaging Application Eng", "Philadelphia, PA", "2013-2014", "Served as a Project Manager and ScrumMaster for the Messaging Application Engineering team.",
+        "Implementation Manager", "Booz Allen Hamilton", "Rockville, MD", "2010-2013", "Served as the Implementation Manager and Site Administrator for several applications.",
+        "Financial Analyst/Project Manager", "Booz Allen Hamilton", "Lexington Park, MD", "2009-2010", "Developed a financial tracking system for clients."
+        ) %>% detailed_entries(role, dates, company, loc, details)
 ```
 
 # Volunteer
