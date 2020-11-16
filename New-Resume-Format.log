@@ -1,0 +1,630 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.13)  16 NOV 2020 10:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**New-Resume-Format.tex
+(./New-Resume-Format.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./twentysecondcv.cls
+Document Class: twentysecondcv 2018/11/24 CV class
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/clearsans/ClearSans.st
+y
+Package: ClearSans 2019/10/16 (Bob Tennent) Supports Clear-Sans fonts for all L
+aTeX engines.
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.st
+y
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count183
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/fontaxes/fontaxes.st
+y
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ClearSans-TLF on inp
+ut line 112.
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/clearsans/T1ClearSans-
+TLF.fd
+File: T1ClearSans-TLF.fd 2019/10/16 (autoinst) Font definitions for T1/ClearSan
+s-TLF.
+)
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <10> not availabl
+e
+(Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
+put line 112.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 112.
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz
+.sty
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.s
+ty
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfuti
+l-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen139
+\pgfutil@tempdimb=\dimen140
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfuti
+l-common-lists.tex))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfuti
+l-latex.def
+\pgfutil@abb=\box47
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs
+.code.tex
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex
+)
+Package: pgfrcs 2020/10/01 v3.1.6a (3.1.6a)
+))
+Package: pgf 2020/10/01 v3.1.6a (3.1.6a)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore
+.sty (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx
+.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.de
+f
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys
+.sty
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+ys.code.tex
+Package: pgfsys 2020/10/01 v3.1.6a (3.1.6a)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkey
+s.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkey
+sfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen143
+\pgf@y=\dimen144
+\pgf@xa=\dimen145
+\pgf@ya=\dimen146
+\pgf@xb=\dimen147
+\pgf@yb=\dimen148
+\pgf@xc=\dimen149
+\pgf@yc=\dimen150
+\pgf@xd=\dimen151
+\pgf@yd=\dimen152
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count184
+\c@pgf@countb=\count185
+\c@pgf@countc=\count186
+\c@pgf@countd=\count187
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count188
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.
+cfg
+File: pgf.cfg 2020/10/01 v3.1.6a (3.1.6a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+ys-pdftex.def
+File: pgfsys-pdftex.def 2020/10/01 v3.1.6a (3.1.6a)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+ys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
+)))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+yssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfsyssoftpath@smallbuffer@items=\count189
+\pgfsyssoftpath@bigbuffer@items=\count190
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+ysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+re.code.tex
+Package: pgfcore 2020/10/01 v3.1.6a (3.1.6a)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.cod
+e.tex
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc
+.code.tex
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil
+.code.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathpars
+er.code.tex
+\pgfmath@dimen=\dimen153
+\pgfmath@count=\count191
+\pgfmath@box=\box48
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.code.tex
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.basic.code.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.trigonometric.code.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.random.code.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.comparison.code.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.base.code.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.round.code.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.misc.code.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.integerarithmetics.code.tex)))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloa
+t.code.tex
+\c@pgfmathroundto@lastzeros=\count192
+))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code
+.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repoints.code.tex
+File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@picminx=\dimen154
+\pgf@picmaxx=\dimen155
+\pgf@picminy=\dimen156
+\pgf@picmaxy=\dimen157
+\pgf@pathminx=\dimen158
+\pgf@pathmaxx=\dimen159
+\pgf@pathminy=\dimen160
+\pgf@pathmaxy=\dimen161
+\pgf@xx=\dimen162
+\pgf@xy=\dimen163
+\pgf@yx=\dimen164
+\pgf@yy=\dimen165
+\pgf@zx=\dimen166
+\pgf@zy=\dimen167
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@path@lastx=\dimen168
+\pgf@path@lasty=\dimen169
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@shorten@end@additional=\dimen170
+\pgf@shorten@start@additional=\dimen171
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+rescopes.code.tex
+File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count193
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+regraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgflinewidth=\dimen172
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+retransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@pt@x=\dimen173
+\pgf@pt@y=\dimen174
+\pgf@pt@temp=\dimen175
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+requick.code.tex
+File: pgfcorequick.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+reobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+rearrows.code.tex
+File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfarrowsep=\dimen176
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+reshade.code.tex
+File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@max=\dimen177
+\pgf@sys@shading@range@num=\count194
+\pgf@shadingcount=\count195
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+reimage.code.tex
+File: pgfcoreimage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+reexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfexternal@startupbox=\box52
+))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+relayers.code.tex
+File: pgfcorelayers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+retransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+rerdf.code.tex
+File: pgfcorerdf.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodul
+eshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfnodeparttextbox=\box53
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodul
+eplot.code.tex
+File: pgfmoduleplot.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfc
+omp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@nodesepstart=\dimen178
+\pgf@nodesepend=\dimen179
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfc
+omp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/10/01 v3.1.6a (3.1.6a)
+))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.s
+ty
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.
+sty
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkey
+s.code.tex)) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/
+pgfmath.sty
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.cod
+e.tex))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor
+.code.tex
+Package: pgffor 2020/10/01 v3.1.6a (3.1.6a)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.cod
+e.tex)
+\pgffor@iter=\dimen180
+\pgffor@skip=\dimen181
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/ti
+kz/tikz.code.tex
+Package: tikz 2020/10/01 v3.1.6a (3.1.6a)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflib
+raryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@plot@mark@count=\count196
+\pgfplotmarksize=\dimen182
+)
+\tikz@lastx=\dimen183
+\tikz@lasty=\dimen184
+\tikz@lastxsaved=\dimen185
+\tikz@lastysaved=\dimen186
+\tikz@lastmovetox=\dimen187
+\tikz@lastmovetoy=\dimen188
+\tikzleveldistance=\dimen189
+\tikzsiblingdistance=\dimen190
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count197
+\tikznumberofchildren=\count198
+\tikznumberofcurrentchild=\count199
+\tikz@fig@count=\count266
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodul
+ematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfmatrixcurrentrow=\count267
+\pgfmatrixcurrentcolumn=\count268
+\pgf@matrix@numberofcolumns=\count269
+)
+\tikz@expandcount=\count270
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/ti
+kz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/fontawesome/fontawesom
+e.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/fontawesome/fontawesom
+esymbols-generic.tex)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/fontawesome/fontawesom
+esymbols-pdftex.tex)) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/
+textpos/textpos.sty
+Package: textpos 2020/09/26 v1.10
+Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
+Package textpos Info: choosing support for LaTeX3 on input line 61.
+\TP@textbox=\box58
+\TP@holdbox=\box59
+\TPHorizModule=\dimen191
+\TPVertModule=\dimen192
+\TP@margin=\dimen193
+\TP@absmargin=\dimen194
+Grid set 16 x 16 = 38.39343pt x 49.68562pt
+\TPboxrulesize=\dimen195
+\TP@ox=\dimen196
+\TP@oy=\dimen197
+\TP@tbargs=\toks31
+TextBlockOrigin set to 0pt x 0pt
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.st
+y
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.st
+y
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count271
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/marvosym/marvosym.st
+y
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.st
+y
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.
+sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.
+sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen198
+\Gm@wd@mp=\dimen199
+\Gm@odd@mp=\dimen256
+\Gm@even@mp=\dimen257
+\Gm@layoutwidth=\dimen258
+\Gm@layoutheight=\dimen259
+\Gm@layouthoffset=\dimen260
+\Gm@layoutvoffset=\dimen261
+\Gm@dimlist=\toks32
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.st
+y
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+)
+\imagewidth=\skip72
+\imagescale=\skip73
+\TotalSectionLength=\skip74
+\SectionTitleLength=\skip75
+\c@colorCounter=\count275
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.
+sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacr
+o.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen262
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.st
+y
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.st
+y
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count279
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen263
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcal
+c.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count280
+\Field@Width=\dimen264
+\Fld@charsize=\dimen265
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(/Users/jacobrozran/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a E
