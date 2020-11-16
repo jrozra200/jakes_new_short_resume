@@ -12,7 +12,7 @@ linkedin: jacob-rozran
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "Jake is a leader, fixer, builder, helper, learner, dad, uncle, & data guy. I am a data professional who has real-world experience putting data products into production and building data teams. I am curious, constantly learning, and improving - staying up to date with trends in all facets of the data science life cycle. Additionally, I am an Adjunct Professor of Statistics who excels at teaching complex topics at all levels of understanding."
 output: vitae::twentyseconds
-skills: [{Human/5],[Statistics/4.5],[R/4.5],[Python/4],[Databases/4]
+skills: [Human/5],[Statistics/4.5],[R/4.5],[Python/4],[Databases/4]
 ---
 
 \skills{{Human/5},{Statistics/4.5},{R/4.5},{Python/4},{Databases/4}}
