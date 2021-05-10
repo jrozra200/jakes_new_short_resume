@@ -62,12 +62,12 @@ library(tibble)
 tribble(
         ~ role, ~ company, ~ loc, ~ dates, ~details,
         "Data Science Practice Lead", "CivicActions", "San Fransico, CA", "2021-Pres.", "Starting a Data Science Practice Area at CivicActions; spend time working on data solutions, sales, marketing, and project management.",
-        "Solutions Consultant", "Socure", "New York, NY", "2020-2021", "Technical expert on fraud prevention, Know Your Customer (KYC)/Customer Identification Program (CIP), Socure product modules, data science, statistics, data visualization, and proof of concept presentations in support of the sales and onboarding processes.",
         "Adjunct Professor of Statistics", "Villanova University", "Villanova, PA", "2020-Pres.", "Build the syllabus, lectures, assignments, and tests for undergraduate Intro to Statistics course.",
+        "Solutions Consultant", "Socure", "New York, NY", "2020-2021", "Technical expert on fraud prevention, Know Your Customer (KYC)/Customer Identification Program (CIP), Socure product modules, data science, statistics, and data viz in support of the sales and onboarding processes.",
         "Manager of Data Analytics", "Comcast: Xfinity Mobile Risk Mgmt", "Philadelphia, PA", "2017-2020", "Led and managed the data analytics and data engineering team for Xfinity Mobile Risk Management. Utilized R, Python, Impala, Splunk, Oracle.",
         "Senior Data Analyst", "Comcast: Internet Services Eng", "Philadelphia, PA", "2014-2017", "Designed and built predictive models, which improved compromised email user account detection times and discovery accuracy.", 
-        "Project Manager", "Comcast: Messaging Application Eng", "Philadelphia, PA", "2013-2014", "Served as a Project Manager and ScrumMaster for the Messaging Application Engineering team.",
-        "Implementation Manager", "Booz Allen Hamilton", "Rockville, MD", "2010-2013", "Served as the Implementation Manager and Site Administrator for several web applications.",
+        "Project Manager", "Comcast: Messaging Application Eng (MAE)", "Philadelphia, PA", "2013-2014", "Served as a PM & ScrumMaster for the MAE team.",
+        "Implementation Manager", "Booz Allen Hamilton", "Rockville, MD", "2010-2013", "Served as the Implementation Manager for several web applications.",
         "Financial Analyst/Project Manager", "Booz Allen Hamilton", "Lexington Park, MD", "2009-2010", "Developed a financial tracking system for clients."
         ) %>% detailed_entries(role, dates, company, loc, details)
 ```
