@@ -25,7 +25,7 @@ library(vitae)
 * R/RStudio - Expert
 * Data Visualization - Expert
 * MS Excel - Expert
-* Python/Jupyter - Advanced
+* Python/Jupyter - Expert
 * Statistics/Modeling - Advanced
 * Databases - Intermediate
 * Bash - Intermediate

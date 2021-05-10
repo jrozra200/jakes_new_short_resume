@@ -1,0 +1,48 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.10)  10 MAY 2021 09:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**jakes_resume_05102021.tex
+(./jakes_resume_05102021.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./twentysecondcv.cls
+Document Class: twentysecondcv 2018/11/24 CV class
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+
+! LaTeX Error: File `ClearSans.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.13 \RequirePackage
+                    [utf8]{inputenc}^^M 
+Here is how much of TeX's memory you used:
+ 226 strings out of 480445
+ 2758 string characters out of 5892391
+ 283378 words of memory out of 5000000
+ 17589 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 58i,0n,64p,165b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+!  ==> Fatal error occurred, no output PDF file produced!
