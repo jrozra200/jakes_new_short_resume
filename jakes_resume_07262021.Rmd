@@ -1,0 +1,93 @@
+---
+name: Jake Rozran
+position: "Data Professional\n\nAdjunct Professor"
+address: "1400 Maryland Ave.\n\nHavertown, PA 19083"
+phone: (410) 231-9371
+profilepic: mariecurie.jpg
+www: jakelearnsdatascience.com
+email: "jacob.rozran@gmail.com"
+twitter: StatsManPHL
+github: jrozra200
+linkedin: jacob-rozran
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "I am a leader, fixer, builder, helper, learner, dad, uncle, & data guy.\n\nI am a data & technology professional who has real-world experience putting data products into production and building data teams. I am curious, constantly learning, and improving - staying up to date with trends in all facets of the data science life cycle.\n\nMy passion for data and statistics has inspired me to become an Adjunct Professor of Statistics, which has improved my ability to explain complex subjects to all levels of understanding. I love to learn in general and am a data fanatic.\n\nIn addition to data and technology, I love being active - soccer, running, cycling, hiking, lifting - and taking pictures (usually of my kids)."
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Data Science Skills
+
+\btwocol
+* R/RStudio
+* Data Visualization
+* Python/Jupyter
+* Databases/SQL
+* Statistics/Modeling
+* Bash & Git
+
+\begin{center}
+
+```{r, out.width = "90%"}
+library(VennDiagram)
+venn.plot <- draw.triple.venn(
+        area1 = 65,
+        area2 = 75,
+        area3 = 85,
+        n12 = 35,
+        n23 = 15,
+        n13 = 25,
+        n123 = 5,
+        category = c("Technology\n& Data", "Statistics", "Leadership"),
+        fill = c("#1d6ae5", "#5DADE2", "#19396b"),
+        cat.cex = 1.5,
+        cat.col = c("#14274e", "#394867", "#9ba4b4"),
+        cex = c(0, 0, 0, 0, 0, 0, 0)
+)
+```
+
+\end{center}
+
+\etwocol
+
+# Experience
+
+```{r}
+library(tibble)
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates, ~details,
+        "Data Science Practice Lead", "CivicActions", "San Fransico, CA", "2021-Pres.", "Building a Data Science Practice Area at CivicActions with > $1MM revenue after 6 months; focused on data solutions, people management, sales, marketing, and project management.",
+        "Adjunct Professor of Statistics", "Villanova University", "Villanova, PA", "2020-Pres.", "Build the syllabus, lectures, assignments, and tests for undergraduate Intro to Statistics course.",
+        "Solutions Consultant", "Socure", "New York, NY", "2020-2021", "Technical expert on fraud prevention, Know Your Customer (KYC)/Customer Identification Program (CIP), Socure product modules, data science, statistics, and data viz in support of the sales and onboarding processes.",
+        "Manager of Data Analytics", "Comcast: Xfinity Mobile Risk Mgmt", "Philadelphia, PA", "2017-2020", "Led and managed the data analytics and data engineering team for Xfinity Mobile Risk Management. Utilized R, Python, Impala, Splunk, Oracle.",
+        "Senior Data Analyst", "Comcast: Internet Services Eng", "Philadelphia, PA", "2014-2017", "Designed and built predictive models, which improved compromised email user account detection times and discovery accuracy.", 
+        "Project Manager (PM)", "Comcast: Messaging Application Eng (MAE)", "Philadelphia, PA", "2013-2014", "Served as a PM & ScrumMaster for the MAE team.",
+        "Implementation Manager (IM)", "Booz Allen Hamilton", "Rockville, MD", "2010-2013", "Served as IM for several web apps.",
+        "Financial Analyst/Project Manager", "Booz Allen Hamilton", "Lexington Park, MD", "2009-2010", "Developed a financial tracking system for clients."
+        ) %>% detailed_entries(role, dates, company, loc, details)
+```
+
+# Volunteer
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Organizer", "Data Jawn Conference", "Philadelphia, PA", "2019-Pres.",
+        "Data Analyst", "Montgomery County Public Defender", "Norristown, PA", "2016-2017"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Masters of Science - Applied Statistics", "2015-2017", "Villanova University", "Villanova, PA",
+  "Bachelors of Science - Business & Engineering", "2004-2009", "Drexel University", "Philadelphia, PA"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
