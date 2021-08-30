@@ -1,0 +1,237 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\colorlet{awesome}{awesome-red}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Jake}{Rozran}
+
+\position{Data Professional \& Adjunct Professor}
+\address{1400 Maryland Ave. Havertown, PA 19083}
+
+\mobile{(410) 231-9371}
+\email{\href{mailto:jacob.rozran@gmail.com}{\nolinkurl{jacob.rozran@gmail.com}}}
+\homepage{jakelearnsdatascience.com}
+\github{jrozra200}
+\linkedin{jacob-rozran}
+\twitter{StatsManPHL}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {August 2021}
+    {Jake Rozran~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{about-me}{%
+\section{About Me}\label{about-me}}
+
+In addition to being a leader, dad, uncle, \& data guy, I am a data \&
+technology professional with real-world experience in data science, data
+analytics, data engineering, fraud detection, risk modeling, building
+and maintaining data teams, project management, sales, consulting, and
+teaching.
+
+My passion for data and statistics has inspired me to become an Adjunct
+Professor of Statistics, which has improved my ability to explain
+complex subjects to all levels of understanding. I love to learn in
+general and am a data fanatic.
+
+On a more personal note, I love being a husband, father, and uncle. I
+also love being active - soccer, running, cycling, hiking, lifting - and
+taking pictures (usually of my kids).
+
+\hypertarget{technical-skills}{%
+\section{Technical Skills}\label{technical-skills}}
+
+\btwocol
+
+\begin{itemize}
+\tightlist
+\item
+  Fraud Detection
+\item
+  Risk Modeling
+\item
+  R/RStudio
+\item
+  Data Visualization
+\item
+  Python/Jupyter
+\item
+  Databases/SQL
+\item
+  Statistics/Modeling
+\item
+  Bash \& Git
+\end{itemize}
+
+\begin{center}
+
+
+\includegraphics[width=0.9\linewidth]{jakes_resume_08292021_files/figure-latex/unnamed-chunk-1-1} 
+
+\end{center}
+
+\etwocol
+
+\hypertarget{experience}{%
+\section{Experience}\label{experience}}
+
+\begin{cventries}
+    \cventry{Data Science Practice Lead}{CivicActions}{San Fransico, CA}{2021-Pres.}{\begin{cvitems}
+\item Building a Data Science Practice Area with > \$1MM revenue after 6 months; focused on data solutions, people management, sales, marketing, and project management.
+\item For the Centers of Medicare and Medicaid (CMS), leveraging Natural Language Processing (NLP) in the creation and evaluation of System Security Plans (SSPs) to optimize the Authority to Operate (ATO) process.
+\item For the Centers of Medicare and Medicaid (CMS), analyzing AWS usage to forecast annual usage and identify inefficiencies.
+\end{cvitems}}
+    \cventry{Adjunct Professor of Statistics}{Villanova University}{Villanova, PA}{2020-Pres.}{\begin{cvitems}
+\item Build the syllabus, lectures, assignments, and tests for undergraduate Intro to Statistics and Intro to Statistics for Biology courses.
+\item Advise and mentor students by writing recommendations for various programs, helping guide studies for real-world success after graduation, and providing helping hand and ear through the stresses of university life. 
+\end{cvitems}}
+    \cventry{Solutions Consultant}{Socure}{New York, NY}{2020-2021}{\begin{cvitems}
+\item Technical expert on fraud prevention, Know Your Customer (KYC)/Customer Identification Program (CIP), Socure product modules, data science, statistics, and data viz in support of the sales and onboarding processes.
+\end{cvitems}}
+    \cventry{Manager of Data Analytics}{Comcast: Xfinity Mobile Risk Mgmt}{Philadelphia, PA}{2017-2020}{\begin{cvitems}
+\item Led and managed the data analytics and data engineering team for Xfinity Mobile Risk Management. Utilized R, Python, Impala, Splunk, Oracle.
+\end{cvitems}}
+    \cventry{Senior Data Analyst}{Comcast: Internet Services Eng}{Philadelphia, PA}{2014-2017}{\begin{cvitems}
+\item Designed and built predictive models, which improved compromised email user account detection times and discovery accuracy.
+\end{cvitems}}
+    \cventry{Project Manager (PM)}{Comcast: Messaging Application Eng (MAE)}{Philadelphia, PA}{2013-2014}{\begin{cvitems}
+\item Served as a PM \& ScrumMaster for the MAE team.
+\end{cvitems}}
+    \cventry{Implementation Manager (IM)}{Booz Allen Hamilton}{Rockville, MD}{2010-2013}{\begin{cvitems}
+\item Served as IM for several web apps.
+\end{cvitems}}
+    \cventry{Financial Analyst/Project Manager}{Booz Allen Hamilton}{Lexington Park, MD}{2009-2010}{\begin{cvitems}
+\item Developed a financial tracking system for clients.
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{nobel-prizes}{%
+\section{Nobel Prizes}\label{nobel-prizes}}
+
+\begin{cvhonors}
+    \cvhonor{}{Nobel Prize in Physics}{Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel}{1903}
+    \cvhonor{}{Nobel Prize in Chemistry}{Awarded for the discovery of radium and polonium}{1911}
+\end{cvhonors}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-R-vitae}{}}%
+\CSLLeftMargin{1. }
+\CSLRightInline{O'Hara-Wild, M., \& Hyndman, R. (2021). \emph{Vitae:
+Curriculum vitae for r markdown}.
+\url{https://CRAN.R-project.org/package=vitae}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-tibble}{}}%
+\CSLLeftMargin{2. }
+\CSLRightInline{Müller, K., \& Wickham, H. (2021). \emph{Tibble: Simple
+data frames}. \url{https://CRAN.R-project.org/package=tibble}}
+
+\end{document}

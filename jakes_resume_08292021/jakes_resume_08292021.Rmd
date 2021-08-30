@@ -31,19 +31,65 @@ Professor of Statistics, which has improved my ability to explain complex
 subjects to all levels of understanding. I love to learn in general and am a 
 data fanatic.
 
-# Education
+On a more personal note, I love being a husband, father, and uncle. I also love 
+being active - soccer, running, cycling, hiking, lifting - and taking pictures 
+(usually of my kids).
+
+# Technical Skills
+
+\btwocol
+- Fraud Detection
+- Risk Modeling
+- R/RStudio
+- Data Visualization
+- Python/Jupyter
+- Databases/SQL
+- Statistics/Modeling
+- Bash & Git
+
+\begin{center}
+
+```{r, out.width = "90%"}
+library(VennDiagram)
+venn.plot <- draw.triple.venn(
+        area1 = 65,
+        area2 = 75,
+        area3 = 85,
+        n12 = 35,
+        n23 = 15,
+        n13 = 25,
+        n123 = 5,
+        category = c("Technology\n& Data", "Statistics", "Leadership"),
+        fill = c("#1d6ae5", "#5DADE2", "#19396b"),
+        cat.cex = 1.5,
+        cat.col = c("#14274e", "#394867", "#9ba4b4"),
+        cex = c(0, 0, 0, 0, 0, 0, 0)
+)
+```
+
+\end{center}
+
+\etwocol
+
+# Experience
 
 ```{r}
 library(tibble)
 tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
+        ~ role, ~ company, ~ loc, ~ dates, ~details,
+        "Data Science Practice Lead", "CivicActions", "San Fransico, CA", "2021-Pres.", "Building a Data Science Practice Area with > $1MM revenue after 6 months; focused on data solutions, people management, sales, marketing, and project management.",
+        "Data Science Practice Lead", "CivicActions", "San Fransico, CA", "2021-Pres.", "For the Centers of Medicare and Medicaid (CMS), leveraging Natural Language Processing (NLP) in the creation and evaluation of System Security Plans (SSPs) to optimize the Authority to Operate (ATO) process.",
+        "Data Science Practice Lead", "CivicActions", "San Fransico, CA", "2021-Pres.", "For the Centers of Medicare and Medicaid (CMS), analyzing AWS usage to forecast annual usage and identify inefficiencies.",
+        "Adjunct Professor of Statistics", "Villanova University", "Villanova, PA", "2020-Pres.", "Build the syllabus, lectures, assignments, and tests for undergraduate Intro to Statistics and Intro to Statistics for Biology courses.",
+        "Adjunct Professor of Statistics", "Villanova University", "Villanova, PA", "2020-Pres.", "Advise and mentor students by writing recommendations for various programs, helping guide studies for real-world success after graduation, and providing helping hand and ear through the stresses of university life. ",
+        "Solutions Consultant", "Socure", "New York, NY", "2020-2021", "Technical expert on fraud prevention, Know Your Customer (KYC)/Customer Identification Program (CIP), Socure product modules, data science, statistics, and data viz in support of the sales and onboarding processes.",
+        "Manager of Data Analytics", "Comcast: Xfinity Mobile Risk Mgmt", "Philadelphia, PA", "2017-2020", "Led and managed the data analytics and data engineering team for Xfinity Mobile Risk Management. Utilized R, Python, Impala, Splunk, Oracle.",
+        "Senior Data Analyst", "Comcast: Internet Services Eng", "Philadelphia, PA", "2014-2017", "Designed and built predictive models, which improved compromised email user account detection times and discovery accuracy.", 
+        "Project Manager (PM)", "Comcast: Messaging Application Eng (MAE)", "Philadelphia, PA", "2013-2014", "Served as a PM & ScrumMaster for the MAE team.",
+        "Implementation Manager (IM)", "Booz Allen Hamilton", "Rockville, MD", "2010-2013", "Served as IM for several web apps.",
+        "Financial Analyst/Project Manager", "Booz Allen Hamilton", "Lexington Park, MD", "2009-2010", "Developed a financial tracking system for clients."
+        ) %>% detailed_entries(role, dates, company, loc, details)
 ```
-
 # Nobel Prizes
 
 ```{r}

@@ -82,7 +82,7 @@ San Francisco, CA
 
 - Building a Data Science Practice Area with > $1MM revenue after 6 months; focused on data solutions, people management, sales, marketing, and project management.
 - For the Centers of Medicare and Medicaid (CMS), leveraging Natural Language Processing (NLP) in the creation and evaluation of System Security Plans (SSPs) to optimize the Authority to Operate (ATO) process.
-- For the Centers of Medicare and Medicaid (CMS), analyzing AWS usage to forecast annual usage and identify efficiencies. 
+- For the Centers of Medicare and Medicaid (CMS), analyzing AWS usage to forecast annual usage and identify inefficiencies. 
 
 ### Adjunct Professor
 
