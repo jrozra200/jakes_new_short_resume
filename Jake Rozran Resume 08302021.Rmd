@@ -109,10 +109,10 @@ tribble(
 ```{r}
 tribble(
         ~ role, ~ company, ~ loc, ~ dates, ~ details,
-        "Project Manager", "Messaging Application Engineering (Comcast)", "Philadelphia, PA", "Sep 2014 - Mar 2017", "Served as a Project Manager and ScrumMaster for the Messaging Application Engineering (MAE) team, responsible for Residential Voicemail and Email Engineering teams.",
-        "Project Manager", "Messaging Application Engineering (Comcast)", "Philadelphia, PA", "Sep 2014 - Mar 2017", "Obtained my Project Management Professional (PMP) and Certified ScrumMaster (CSM) certifications.",
-        "Project Manager", "Messaging Application Engineering (Comcast)", "Philadelphia, PA", "Sep 2014 - Mar 2017", "Instituted and evangelized Scrum on both the email and voicemail teams, migrating from a hybrid of waterfall and Kanban, which led to higher team productivity, better communication across teams from development through deployment to production, and improved interaction with our product owners.",
-        "Project Manager", "Messaging Application Engineering (Comcast)", "Philadelphia, PA", "Sep 2014 - Mar 2017", "Managed the scheduling and owned the priorities for multiple work streams and teams."
+        "Project Manager", "Messaging Application Engineering (Comcast)", "Philadelphia, PA", "Apr 2013 - Sep 2014", "Served as a Project Manager and ScrumMaster for the Messaging Application Engineering (MAE) team, responsible for Residential Voicemail and Email Engineering teams.",
+        "Project Manager", "Messaging Application Engineering (Comcast)", "Philadelphia, PA", "Apr 2013 - Sep 2014", "Obtained my Project Management Professional (PMP) and Certified ScrumMaster (CSM) certifications.",
+        "Project Manager", "Messaging Application Engineering (Comcast)", "Philadelphia, PA", "Apr 2013 - Sep 2014", "Instituted and evangelized Scrum on both the email and voicemail teams, migrating from a hybrid of waterfall and Kanban, which led to higher team productivity, better communication across teams from development through deployment to production, and improved interaction with our product owners.",
+        "Project Manager", "Messaging Application Engineering (Comcast)", "Philadelphia, PA", "Apr 2013 - Sep 2014", "Managed the scheduling and owned the priorities for multiple work streams and teams."
         ) %>% detailed_entries(role, dates, company, loc, details)
 ```
 
