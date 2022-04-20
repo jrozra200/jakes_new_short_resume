@@ -23,28 +23,27 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 # Summary
 
 In addition to being a leader, dad, uncle, & data guy, I am a data & technology 
-professional with real-world experience in data science, data analytics, data 
-engineering, fraud detection, risk modeling, building and maintaining data teams, 
-project management, sales, consulting, and teaching. 
+professional with real-world experience in data science, advocacy, building and 
+growing teams, project management, sales, consulting, and teaching. I am curious 
+about the changing landscape of technology's impact on our lives and especially 
+passionate about fair and ethical algorithms. My passion for data and statistics 
+has also inspired me to become an Adjunct Professor of Data Science & Statistics, 
+which has improved my ability to explain complex subjects to all levels of 
+understanding. 
 
-My passion for data and statistics has inspired me to become an Adjunct 
-Professor of Data Science & Statistics, which has improved my ability to explain 
-complex subjects to all levels of understanding. I love to learn in general and 
-am a data fanatic.
-
-# Data Science Skills
+# Top Skills & Technologies
 
 \begin{center}
 
 ```{r, results = "asis"}
-df <- data.frame(a = c("Data Visualization", "Hypothesis Testing", 
+df <- data.frame(a = c("Data Visualization", "Advanced Analytics", 
                        "Project Management", "Statistical Modeling", 
-                       "Fraud Detection"),
+                       "People Leadership"),
                  b = c("RStudio", "Jupyter Notebooks", "Tableau/Metabase/Redash", 
-                       "GitHub", "Excel"),
-                 c = c("SQL", "R", "Python", "Bash", "Java Script"),
+                       "GitHub", "MS Office Suite"),
+                 c = c("SQL", "R", "Python", "Bash", "HTML"),
                  d = c("PostgreSQL", "Hive/Impala (Hadoop)", "Athena (AWS)", 
-                       "MongoDB", "Neo4J"))
+                       "SQL/mySQL/SQLite", "Neo4J"))
 
 names(df) <- c("METHODS", "APPLICATIONS", "LANGUAGES", "DATABASES")
 
@@ -56,8 +55,9 @@ kable(df, row.names = FALSE, "latex", booktabs = T)
 ```{r}
 tribble(
         ~ role, ~ company, ~ loc, ~ dates, ~ details,
-        "Data Science Practice Lead", "CivicActions", "Lafayette, CA", "Feb 2021 - Present", "Building a Data Science Practice Area with > $1MM revenue after 6 months; focused on data analysis, data science, people management, sales, marketing, and project management.",
-        "Data Science Practice Lead", "CivicActions", "Lafayette, CA", "Feb 2021 - Present", "For the Centers of Medicare and Medicaid (CMS), leveraging Natural Language Processing (NLP) in the creation and evaluation of System Security Plans (SSPs) to optimize the Authority to Operate (ATO) process; analyzing AWS usage to forecast annual usage and identify inefficiencies; using graph analysis and NLP to identify related documents to provide enhanced search capabilities."
+        "Data Science Practice Lead", "CivicActions", "Lafayette, CA", "Feb 2021 - Present", "Building a Data Science Practice Area with > $1MM revenue after 12 months; personally focused on data science, people management and coaching, sales, marketing, and project management.",
+        "Data Science Practice Lead", "CivicActions", "Lafayette, CA", "Feb 2021 - Present", "For the Centers of Medicare and Medicaid (CMS), leveraging Natural Language Processing (NLP) in the creation and evaluation of System Security Plans (SSPs) to optimize the Authority to Operate (ATO) process; analyzing AWS usage to forecast annual usage and identify inefficiencies; using graph analysis and NLP to identify related documents to provide enhanced search capabilities.",
+        "Data Science Practice Lead", "CivicActions", "Lafayette, CA", "Feb 2021 - Present", "One of five members of the company's Diversity, Equity, Inclusion, and Accessibility (DEIA) team; responsible for helping improve the company's DEIA practices, including analyzing demographic data, designing surveys to understand company feeling about DEIA, and identifying and improving company policy to be more inclusive.",
         ) %>% detailed_entries(role, dates, company, loc, details)
 ```
 
@@ -160,7 +160,4 @@ tribble(
         "Bachelors of Science - Business & Engineering", "Drexel University", "Philadelphia, PA", "2004 - 2009", "Drexel University Varsity Soccer Player, 2004 - 2006"
         ) %>% detailed_entries(degree, dates, uni, loc, details)
 ```
-
-
-\makecvfooter{`r format(Sys.time(), '%B %Y')`}{Jacob Rozran}{2}
 
