@@ -27,30 +27,36 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 **Grade Level:** CN 71  
 **Location:** Remote (I reside in Havertown, PA)  
 
-# Personal Summary
+# Career Summary
 
-In addition to being a dad, uncle, & data guy, I am a data & technology 
+- In addition to being a dad, uncle, & data guy, I am a data & technology 
 professional with real-world experience in data science, advocacy, building and 
-growing teams, project management, sales, consulting, and teaching. I am curious 
-about the changing landscape of technology's impact on our lives and especially 
-passionate about fair and ethical algorithms. My passion for data and statistics 
-has also inspired me to become an Adjunct Professor of Data Science & Statistics, 
-which has improved my ability to explain complex subjects to all levels of 
-understanding. 
+growing teams, project management, sales, consulting, and teaching. 
+- Managed technical staff in multiple teams and companies to build out 
+and plan the implementation of technical strategies using iterative/agile 
+product development or data-driven methodologies.
+- Have evaluated technological program functions and established organizational 
+goals to improve the performance of digital services, technical systems, and 
+products within both commercial and government entities.
+- Experienced writing code, analyzing data, creating or developing products and 
+services for end users.
+- Experienced providing advice, views, alternatives, and recommendations to 
+senior management through formal briefings to guide stakeholders.
 
 # Top Skills & Technologies
 
 \begin{center}
 
 ```{r, results = "asis"}
-df <- data.frame(a = c("Data Ethics", "Data Visualization", 
-                       "Data Analysis", "Project Management", 
-                       "People Leadership"),
-                 b = c("RStudio", "Jupyter Notebooks", "Tableau/Metabase/Redash", 
+df <- data.frame(a = c("Dark Pattern Detection", "Fraud Detection", 
+                       "Artificial Intelligence", 
+                       "Linear and Logistic Regression",
+                       "Natural Language Processing"),
+                 b = c("Jupyter Notebooks", "RStudio", "Tableau/Metabase/Redash", 
                        "GitHub", "MS Office Suite"),
-                 c = c("SQL", "R", "Python", "Bash", "HTML"),
+                 c = c("Python", "R", "SQL", "Bash", "HTML"),
                  d = c("PostgreSQL", "Hive/Impala (Hadoop)", "Athena (AWS)", 
-                       "SQL/mySQL/SQLite", "Neo4J"))
+                       "SQL/mySQL/SQLite", "OracleDB"))
 
 names(df) <- c("METHODS", "APPLICATIONS", "LANGUAGES", "DATABASES")
 
@@ -68,13 +74,19 @@ kable(df, row.names = FALSE, "latex", booktabs = T)
 (202) 415-0947  
 **Dates of Employment:** February 22, 2021 - Present  
 **Hours per Week:** Full-time (40 hours per week)  
-**Salary:** $165,000 (Other benefits not included in salary number)  
+
+**Summary**: Building a Data Science Practice Area with > $1MM revenue after 12 
+months; personally focused on data science, people management and coaching, sales, 
+marketing, and project management.
+
 **Duties and Accomplishments:**
 
-- Building a Data Science Practice Area with > $1MM revenue after 12 months; 
-personally focused on data science, people management and coaching, sales, 
-marketing, and project management.
-- For various clients at the Centers of Medicare and Medicaid (CMS): 
+- **Manage technical staff:** As the first data scientist at CivicActions, I am 
+focused on hiring, managing, and mentoring new data scientists as we grow and 
+providing opportunities for our current staff to grow their expertise. 
+- **Evaluate technological program functions:** 
+- **Writing code and analyzing data:** For various clients at the Centers of 
+Medicare and Medicaid (CMS): 
     - Leveraging Natural Language Processing (NLP) in the creation, evaluation, 
     and summarization of System Security Plans (SSPs) to optimize the Authority 
     to Operate (ATO) process. Technologies used: Python, R, Rmd, GitHub, GitHub 
@@ -84,6 +96,14 @@ marketing, and project management.
     used: R, Shiny Dashboards, AWS Athena, GitHub.
     - Using graph analysis and NLP to identify related documents for 
     enhanced search capabilities. Technologies used: R, Rmd, GitHub.
+- **Providing advice:** Actively work with our sales and account management 
+teams to evaluate new and existing contracts for opportunities to add, expand, 
+and enhance our data science practice. 
+- **Attention to Detail:** 
+- **Customer Service:**
+- **Oral Communication:**
+- **Problem Solving:** 
+
 - One of five members of the company's Diversity, Equity, Inclusion, and 
 Accessibility (DEIA) team.
     - Responsible for helping improve the company's DEIA practices, including 
@@ -101,7 +121,6 @@ Accessibility (DEIA) team.
 Chairperson, (610) 519-4850  
 **Dates of Employment:** August 10, 2020 - Present  
 **Hours per Week:** Part-time (~15 hours per week during the semester)  
-**Salary:** $8,700 (\$1,450 per credit hour)  
 **Duties and Accomplishments:**  
 
 - Build the syllabus, lectures, assignments, projects, and tests for 
@@ -121,7 +140,6 @@ Committee Member (Remote)
 **Supervisor:** NA  
 **Dates of Employment:** May 27, 2022 - July 18, 2022  
 **Hours per Week:** Part-time (~5 hours per week during the evaluation period)  
-**Salary:** $650  
 **Duties and Accomplishments:**  
 
 - Evaluate proposals seeking funding to educate students who can better apply 
@@ -140,7 +158,6 @@ policies
 longer at Socure)  
 **Dates of Employment:** January 13, 2020 - February 12, 2021  
 **Hours per Week:** Full-time (40 hours per week)  
-**Salary:** $150,000 + Sales Incentive (paid quarterly up to \$75,000)  
 **Duties and Accomplishments:**  
 
 - Technical expert on fraud prevention, Know Your Customer (KYC)/Customer 
@@ -165,7 +182,6 @@ machine learning techniques.
 (913) 485-3592 (No longer at Comcast)  
 **Dates of Employment:** March 20, 2017 - January 10, 2020  
 **Hours per Week:** Full-time (40 hours per week)  
-**Salary:** ~$120,000 (Other benefits not included in salary number)  
 **Duties and Accomplishments:**  
 
 - Designed, built, deployed, maintained, and monitored a fraud decision making 
@@ -189,7 +205,6 @@ Mobile Risk Management team.
 (202) 210-2120  
 **Dates of Employment:** September 15, 2014 - March 17, 2017  
 **Hours per Week:** Full-time (40 hours per week)  
-**Salary:** ~$95,000 (Other benefits not included in salary number)  
 **Duties and Accomplishments:**  
 
 - Designed and built predictive models, which improved compromised user account 
@@ -209,7 +224,6 @@ Splunk, Logistic Regression, and Microsoft Excel.
 Engineering, (856) 448-4767  
 **Dates of Employment:** April 22, 2013 - September 12, 2014  
 **Hours per Week:** Full-time (40 hours per week)  
-**Salary:** ~$72,000 (Other benefits not included in salary number)  
 **Duties and Accomplishments:**  
 
 - Served as a Project Manager and ScrumMaster for the Messaging Application 
@@ -236,7 +250,6 @@ Management Systems Project
 BAH)  
 **Dates of Employment:** November 8, 2010 - April 12, 2013  
 **Hours per Week:** Full-time (40 hours per week)  
-**Salary:** ~$50,000 (Other benefits not included in salary number)  
 **Duties and Accomplishments:**  
 
 - Served as the Implementation Manager and Site Administrator for the National 
@@ -254,7 +267,6 @@ Information Systems (RIS) Project
 **Supervisor:** NA  
 **Dates of Employment:** November 2, 2009 - November 5, 2010  
 **Hours per Week:** Full-time (40 hours per week)  
-**Salary:** $42,000 (Other benefits not included in salary number)  
 **Duties and Accomplishments:**  
 
 - Developed a financial tracking system for client, which allowed key 

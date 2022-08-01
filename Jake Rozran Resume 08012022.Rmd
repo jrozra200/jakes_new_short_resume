@@ -1,0 +1,273 @@
+---
+name: Jake Rozran
+position: "Data Science Practice Lead & Adjunct Professor of Data Science"
+address: "1400 Maryland Ave. Havertown, PA 19083"
+phone: (410) 231-9371
+www: jakelearnsdatascience.com
+email: "jacob.rozran@gmail.com"
+twitter: StatsManPHL
+github: jrozra200
+linkedin: jacob-rozran
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+library(VennDiagram)
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+# Summary
+
+- Data & technology professional with 8+ years of real-world experience in data 
+science (using SQL, R, and Python), working in cross functional teams (including 
+Product, Engineering, and Operations), and owning workflows from ideation to 
+production (putting ML into production).
+- Curious about the changing landscape of technology's impact on our lives 
+and especially passionate about fair and ethical algorithms.
+- Able to explain complex subjects to all levels of understanding as an 
+Adjunct Professor of Data Science & Statistics & Data Science Practice Lead. 
+
+# Top Skills & Technologies
+
+\begin{center}
+
+```{r, results = "asis"}
+df <- data.frame(a = c("SQL", "Python", "R", "Bash", "HTML"),
+                 b = c("PostgreSQL", "Hive/Impala (Hadoop)", "Athena (AWS)", 
+                       "SQL/mySQL/SQLite", "Oracle"),
+                 c = c("Jupyter Notebooks", "RStudio", "GitHub", 
+                       "Tableau/Metabase/Redash", "MS Office Suite"),
+                 d = c("Data Ethics", "Data Visualization", 
+                       "Data Analysis", "Project Management", 
+                       "People Leadership"))
+
+names(df) <- c("LANGUAGES", "DATABASES", "APPLICATIONS", "METHODS")
+
+kable(df, row.names = FALSE, "latex", booktabs = T)
+```
+\end{center}
+
+# Experience
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Data Science Practice Lead", 
+        "CivicActions", 
+        "Lafayette, CA", 
+        "Feb 2021 - Present"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+- **Summary:** Building a Data Science Practice Area with > $1MM revenue after 
+12 months; personally focused on data science, people management and coaching, 
+sales, marketing, and project management.
+
+- **Impactful Analysis:** For the Centers of Medicare and Medicaid (CMS), 
+leveraging Natural Language Processing (NLP) in the creation and evaluation of 
+System Security Plans (SSPs) to optimize the Authority to Operate (ATO) process; 
+analyzing AWS usage to forecast annual usage and identify inefficiencies; 
+using graph analysis and NLP to identify related documents to provide enhanced 
+search capabilities.
+
+- **Databases (SQL):** Accessing data from AWS Athena (at CMS) and ClickHouse 
+(internal data).
+
+- **Scripting (Python/R):** At CMS, I utilize Python for NLP projects and R to 
+build Shiny Dashboards and complete bespoke analysis (mainly in RMarkdown 
+documents).
+
+- **Ownership, Dealing with Ambiguity, & Communication:** As the first data 
+science teammate on each project I have supported (and at the company), I have 
+had to focus on explaining the capabilities of our team and iteratively working 
+with clients to understand their needs and providing relevant analysis.
+
+- **Partnership:** Internally, I work hand in hand with our marketing, program 
+management, and sales teams to identify new opportunities for our data science 
+practice area; externally, on each project, I work closely with our clients, 
+product owners, engineering teams, and design teams.
+
+- **Personal Impact:** One of five members of the company's Diversity, Equity, 
+Inclusion, and Accessibility (DEIA) team; responsible for helping improve the 
+company's DEIA practices, including analyzing demographic data, designing 
+surveys to understand company feeling about DEIA, and identifying and improving 
+company policy to be more inclusive.
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Adjunct Professor of Data Science & Statistics", 
+        "Villanova University", 
+        "Villanova, PA", 
+        "Aug 2020 - Present"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+- **Ownership & Communication:** Build the syllabus, lectures, assignments, 
+projects, and tests for undergraduate Data Science, Intro to Statistics, and 
+Intro to Statistics for Biology courses.
+
+- **Personal Impact:** Advise and mentor students by writing recommendations for 
+various programs, helping guide studies for real-world success after graduation, 
+and providing assistance through the stresses of university life.
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Public Interest Technology - University Network (PIT-UN) Evaluation Committee", 
+        "New America", 
+        "Washington, DC", 
+        "June 2022 - July 2022"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+- **Summary:** Evaluated proposals seeking funding to educate students who can 
+better apply technical understanding and practice to questions of individual 
+rights, justice, social welfare, and the public good, particularly for those 
+members of our society least well served historically and today by existing 
+systems and policies. 
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Solutions Consultant", 
+        "Socure", 
+        "New York, NY", 
+        "Jan 2020 - Feb 2021"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+- **Summary:** Technical expert on fraud prevention, Know Your Customer 
+(KYC)/Customer Identification Program (CIP), Socure product modules, data 
+science, statistics, and data visualization in support of the sales and 
+onboarding processes.
+
+- **Analysis, Communication, & Dealing with Ambiguity:** Created custom 
+proof-of-concept (POC) analyses for prospective customers - showing the value of 
+Socure versus their current solution(s).
+
+- **Ownership:** Served as the Growth Team's subject matter expert (SME) on data 
+science, creating educational documents and presentations on challenging topics 
+like Area Under the Curve (AUC), false positives, and other model evaluation 
+criteria.
+
+- **Partnership:** Worked with the Marketing Team to create content for the 
+Socure Blog on machine learning techniques.
+
+- **Personal Impact:** Member of the DEI team.
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Manager of Data Analytics", 
+        "Xfinity Mobile Risk Management (Comcast)", 
+        "Philadelphia, PA", 
+        "Mar 2017 - Jan 2020"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+- **Summary:** Led and managed the data analytics and engineering team for 
+Xfinity Mobile Credit Risk Management, including hiring and training of staff 
+analysts and engineers, collaborating with and providing analysis for 
+stakeholders, and tracking and prioritizing all team tasking.
+
+- **Ownership & Dealing with Ambiguity:** Invented, designed, and put into 
+production a fraud decision making tool that was responsible for a decrease in 
+month-over-month fraud losses by 92% in 2018 - this tool was implemented while 
+our team dealt with procurement and staffing issues.
+
+- **Impactful Analysis & Communication:** Built and maintained the executive 
+reporting packages for both fraud and credit risk management.
+
+- **Partnership:** Worked closely with product, engineering, and operations 
+teams to handle all aspects of risk management decision making (fraud and 
+credit).
+
+- **Databases (SQL):** Leveraged, maintained, and created tables in both Impala 
+(Hadoop) and Oracle.
+
+- **Scripting (Python/R):** Built a fraud decision making tool that combines 
+custom feature creation, statistical and business rules, and predictive models 
+built in Python, R, and Bash. 
+
+- **Personal Impact:** Provided coaching, leadership, and mentorship to all 
+analysts on the Xfinity Mobile Risk Management team.
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates,
+        "Senior Data Analyst", 
+        "Internet Services Engineering (Comcast)", 
+        "Philadelphia, PA", 
+        "Sep 2014 - Mar 2017"
+        ) %>% detailed_entries(role, dates, company, loc)
+```
+
+- **Impactful Analysis:** Designed and built predictive models, which improved 
+compromised user account detection times and discovery accuracy – this work was 
+presented internally along with several internal blog posts about the effort.
+
+- **Impactful Analysis:** Created forecasts of user base growth and project 
+completion.
+
+- **Databases (SQL):** Obtained data from Splunk using the Splunk Query Language.
+
+- **Scripts (Python/R):** Utilized R and Python to build and interpret Logisitic 
+Regression Models.
+
+- **Partnership:** Worked closely with the product, project, and engineering 
+teams to identify and correctly prioritize analyses. 
+
+---
+
+\begin{center}
+
+Additional work experience is outlined on my LinkedIn Profile.
+
+\end{center}
+
+# Volunteer
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates, ~ details,
+        "Resident Data Science Expert", "Govern for America", "Katonah, NY", "April 2022 - Present", "Provide training and mentorship in data science, data visualization, and data ethics for GFA fellows."
+        ) %>% detailed_entries(role, dates, company, loc, details)
+```
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates, ~ details,
+        "Organizer", "Data Jawn Conference", "Philadelphia, PA", "April 2019 - Present", "Assisted in promotion, speaker selection, and day-of-event logistics for the Data Jawn, a Philadelphia data conference highlighting the great work of our local data commnuity."
+        ) %>% detailed_entries(role, dates, company, loc, details)
+```
+
+```{r}
+tribble(
+        ~ role, ~ company, ~ loc, ~ dates, ~ details,
+        "Data Analyst", "Montgomery County Public Defender", "Norristown, PA", "May 2016 - Jun 2017", "Assisted Montgomery County Public Defender to define an analytics strategy to support competitive salaries and fair defence for all Montgomery County residents; created, built, and maintained advanced analysis."
+        ) %>% detailed_entries(role, dates, company, loc, details)
+```
+
+# Education
+```{r}
+tribble(
+        ~ degree, ~ uni, ~ loc, ~ dates, 
+        "Masters of Science - Applied Statistics", "Villanova University", "Villanova, PA", "2015 - 2017"
+        ) %>% detailed_entries(degree, dates, uni, loc)
+```
+
+```{r}
+tribble(
+        ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+        "Bachelors of Science - Business & Engineering", "Drexel University", "Philadelphia, PA", "2004 - 2009", "Drexel Representative for Student Lobbying Day in Harrisburg, PA, 2009",
+        "Bachelors of Science - Business & Engineering", "Drexel University", "Philadelphia, PA", "2004 - 2009", "Drexel University Traditions Council Treasurer, 2007 - 2009",
+        "Bachelors of Science - Business & Engineering", "Drexel University", "Philadelphia, PA", "2004 - 2009", "Dean’s List, 2006, 2008",
+        "Bachelors of Science - Business & Engineering", "Drexel University", "Philadelphia, PA", "2004 - 2009", "Drexel Representative to Colonial Athletic Association's Student Athlete Advisory Committee, 2006",
+        "Bachelors of Science - Business & Engineering", "Drexel University", "Philadelphia, PA", "2004 - 2009", "Drexel University Varsity Soccer Player, 2004 - 2006"
+        ) %>% detailed_entries(degree, dates, uni, loc, details)
+```
+
